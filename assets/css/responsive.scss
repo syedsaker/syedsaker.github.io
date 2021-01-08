@@ -1,0 +1,370 @@
+$common-font      :'Raleway', sans-serif;
+$paragraph        :'Open Sans', sans-serif;
+$white-color      :#ffffff;
+$black-color      :#000000;
+$lightblack-color :#222222;
+$blue-color       :#4012e7;
+$green-color      :#158467;
+$soft-green-color :rgba(21,132,103,.04);
+$transition       : all ease .5s;
+
+@media only screen and (max-width : 767px) {
+    .ptb-100 {
+        padding: 50px 0;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px ;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .mobile-nav {
+        &.mean-container {
+            .mean-bar {
+                background-color: $white-color;
+            }
+            a {
+                &.meanmenu-reveal {
+                    color: #073868;
+                    span {
+                        background: #073868;
+                        position: relative;
+                        top: 7px;
+                        margin-top: -4px;
+                    }
+                }
+            }
+            .mean-nav {
+                ul {
+                    li {
+                        background: #f8f9fa;
+                        a {
+                            &.active {
+                                color: #aa4a30;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .logo {
+            top: -2px;
+            color: #000;
+            font-size: 40px;
+            text-transform: capitalize;
+            font-weight: 900;
+        }
+    } 
+    /* Main Banner Area CSS */
+    .main-banner-area {
+        .single-banner {
+            .banner-text {
+                text-align: center;
+            }
+            .man-image {
+                text-align: center;
+                img {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+        .down-arrow {
+            bottom:50px;
+        }
+    }
+    /* About Area CSS */
+    .about-area {
+        .single-about {
+            .about-image {
+                &::before {
+                    display: none;
+                }
+                img {
+                    margin-left: 0;
+                    margin-top: 0;
+                    margin-bottom: 30px;
+                }
+            }
+            .about-content {
+                padding-left: 0;
+                .about-text {
+                    span {
+                        width: auto;
+                    }
+                } 
+            }
+        }
+    }
+    /* Skill Area CSS */
+    .skill-area {
+        .single-skill {
+            .tabs {
+                margin-bottom: 15px;
+                li {
+                    margin-right: 10px;
+                    margin-bottom: 20px;
+                    a {
+                        font-size: 15px;
+                        padding: 12px;
+                        width: auto;
+                    }
+                }
+            }
+        }
+    } 
+    /* Work Area CSS */
+    .work-area {
+        .single-work {
+            .work-items {
+                img {
+                    width: 100%;
+                }
+                .work-overview {
+                    .project-name {
+                        p {
+                            font-size: 16px;
+                            top: 62%;
+                        }
+                    }
+                }
+                .shape {
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+        }
+    }  
+    /* Testimonial Area CSS */
+    .testimonial-area {
+        .single-testimonial {
+            .testimonial-items {
+                p {
+                    margin-bottom: 20px;
+                }
+            }
+            &.owl-carousel {
+                .owl-nav {
+                    button {
+                        &.owl-next {
+                            top: auto;
+                            right: 0;
+                        }
+                        &.owl-prev {
+                            top: auto;
+                            left: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Blog Area CSS */
+    .blog-area {
+        .single-blog {
+            .blog-items {
+                .blog-body {
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    /* Contact Area CSS */
+    .contact-area {
+        .single-form {
+            padding: 20px;
+        }
+    } 
+    /* Footer Area CSS */
+    .footer-area {
+        .single-footer {
+            .social-icon {
+                ul {
+                    li {
+                        a {
+                            width: 40px;
+                            height: 40px;
+                            line-height: 40px;
+                        }
+                    }
+                }
+            }
+            p {
+                font-size: 15px;
+            }
+        }
+    }
+}
+@media only screen and (min-width : 576px) and (max-width : 767px) {
+    /* Main Banner Area CSS */
+    .main-banner-area {
+        .single-banner {
+            .banner-text {
+                h1 {
+                    font-size: 45px;
+                }
+            }
+        }
+    }
+    /* Work Area CSS */
+    .work-area {
+        .single-work {
+            .work-items {
+                .shape {
+                    width: 140px;
+                    height: 140px;
+                }
+                .work-overview {
+                    .project-name {
+                        p {
+                            font-size: 15px;
+                            top: 68%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    /* Blog Area CSS */
+    .blog-area {
+        .single-blog {
+            .blog-items {
+                .blog-body {
+                    .month {
+                        font-size: 14px;
+                    }
+                    h3 {
+                        font-size: 16px;
+                    }
+                    p {
+                        font-size: 15px;
+                    }
+                    a {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (min-width : 768px) and (max-width : 991px) {
+    .ptb-100 {
+        padding: 50px 0;
+    }
+    .pt-100 {
+        padding-top: 50px;
+    }
+    .pb-100 {
+        padding-bottom: 50px ;
+    }
+    .pb-70 {
+        padding-bottom: 40px;
+    }
+    .mobile-nav {
+        &.mean-container {
+            .mean-bar {
+                background-color: $white-color;
+            }
+            a {
+                &.meanmenu-reveal {
+                    color: #073868;
+                    span {
+                        background: #073868;
+                        position: relative;
+                        top: 7px;
+                        margin-top: -4px;
+                    }
+                }
+            }
+            .mean-nav {
+                ul {
+                    li {
+                        background: #f8f9fa;
+                        a {
+                            &.active {
+                                color: #aa4a30;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .logo {
+            top: -2px;
+            color: #000;
+            font-size: 40px;
+            text-transform: capitalize;
+            font-weight: 900;
+        }
+    }
+
+    /* About Area CSS */
+    .about-area {
+        .single-about {
+            .about-image {
+                &::before {
+                    display: none;
+                }
+                img {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    margin-bottom: 30px;
+                }
+            }
+            .about-content {
+                padding-left: 0;
+                .about-title {
+                     p {
+                         max-width: none;
+                     }
+                }
+            }
+        }
+    } 
+}
+@media only screen and (min-width : 992px) and (max-width : 1199px) {
+    /* Default CSS */
+    .section-title {
+        h3 {
+            font-size: 30px;
+        }
+    }
+    /* Main Banner Area CSS */
+    .main-banner-area {
+        .single-banner {
+            .banner-text {
+                h1 {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    /* Work Area CSS */
+    .work-area {
+        .single-work {
+            .work-items {
+                .shape {
+                    width: 160px;
+                    height: 160px;
+                }
+            }
+        }
+    } 
+    /* Blog Area CSS */ 
+    .blog-area {
+        .single-blog {
+            .blog-items {
+                .blog-body {
+                    h3 {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+}
